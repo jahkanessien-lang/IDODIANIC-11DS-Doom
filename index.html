@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="11DS — 11-Dimensional Security. A defense-in-depth architecture for people, data, devices, software, infrastructure, networks, operations, physical systems, AI, resilience, and governance.">
+<title>11DS — 11-Dimensional Security</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="nav"><a class="brand" href="#top">11DS</a><nav><a href="#dimensions">Dimensions</a><a href="#architecture">Architecture</a><a href="#docs">Docs</a><a href="https://github.com/" rel="noopener">GitHub</a></nav></header>
+<main id="top">
+<section class="hero">
+<div class="eyebrow">11-DIMENSIONAL SECURITY</div>
+<h1>Security designed to survive failure.</h1>
+<p class="lead">11DS is a defense-in-depth security architecture for protecting an entire technology ecosystem—from identity and data to AI, infrastructure, physical systems, resilience, and independent assurance.</p>
+<div class="actions"><a class="button" href="#dimensions">Explore 11DS</a><a class="button secondary" href="docs/README.md">Read the documentation</a></div>
+<p class="note">11DS does not claim literal “unbreakability.” Its goal is controlled survivability: prevent, detect, contain, preserve evidence, recover cleanly, and continuously improve.</p>
+</section>
+
+<section id="architecture" class="section">
+<h2>One architecture. Eleven dimensions.</h2>
+<p>11DS treats security as a system of mutually reinforcing controls rather than a single perimeter. A failure in one layer should not automatically become total compromise.</p>
+<img class="diagram" src="assets/11ds-architecture.svg" alt="11DS architecture showing eleven security dimensions around a protected core">
+</section>
+
+<section id="dimensions" class="section">
+<h2>The 11 dimensions</h2>
+<div class="grid">
+<div class="card"><b>01 — People, Identity & Trust</b><p>Authentication, authorization, privileged access, machine identity, zero trust and human factors.</p></div>
+<div class="card"><b>02 — Data & Cryptography</b><p>Encryption, key management, integrity, signatures, classification, privacy and post-quantum readiness.</p></div>
+<div class="card"><b>03 — Devices & Platforms</b><p>Secure boot, firmware, operating systems, endpoint security, device posture and platform integrity.</p></div>
+<div class="card"><b>04 — Applications & Supply Chain</b><p>Secure development, dependencies, SBOMs, provenance, signed releases and software assurance.</p></div>
+<div class="card"><b>05 — Infrastructure, Cloud & Compute</b><p>Servers, cloud, containers, virtualization, storage, infrastructure-as-code and control-plane protection.</p></div>
+<div class="card"><b>06 — Networks & Communications</b><p>Segmentation, zero-trust networking, secure remote access, communications resilience and lateral-movement resistance.</p></div>
+<div class="card"><b>07 — Operations, Detection & Response</b><p>SOC, SIEM, threat hunting, incident response, evidence preservation and defensive automation.</p></div>
+<div class="card"><b>08 — Physical & Cyber-Physical Security</b><p>Facilities, power, cooling, physical access, OT and cyber-physical safety boundaries.</p></div>
+<div class="card"><b>09 — AI, Agents, Quantum & Emerging Tech</b><p>AI permissions, model security, prompt-injection resistance, agent governance and PQC migration.</p></div>
+<div class="card"><b>10 — Risk, Resilience & Continuity</b><p>Immutable backups, disaster recovery, clean-room recovery, alternate sites and continuity planning.</p></div>
+<div class="card"><b>11 — Governance & Independent Assurance</b><p>Policies, ownership, audits, suppliers, compliance, independent testing and continuous improvement.</p></div>
+</div>
+</section>
+
+<section class="section split">
+<div><h2>Design principle</h2><p>Assume components can fail. Build the architecture so one stolen credential, compromised device, malicious dependency, rogue agent, cloud failure or operational mistake does not become an unrestricted path to everything else.</p></div>
+<div><h2>Security objective</h2><ul><li>Reduce attack surface</li><li>Limit blast radius</li><li>Detect abnormal behavior</li><li>Contain safely</li><li>Preserve trustworthy evidence</li><li>Recover from clean state</li><li>Independently verify controls</li></ul></div>
+</section>
+
+<section id="docs" class="section">
+<h2>Documentation</h2>
+<div class="docs">
+<a href="docs/README.md">Project overview</a>
+<a href="docs/ARCHITECTURE.md">Architecture</a>
+<a href="docs/SECURITY.md">Security model</a>
+<a href="docs/DEPLOYMENT.md">GitHub Pages deployment</a>
+<a href="docs/CONTRIBUTING.md">Contributing</a>
+<a href="docs/THREAT-MODEL.md">Threat model</a>
+</div>
+</section>
+</main>
+<footer><p>11DS — 11-Dimensional Security · Defensive architecture and research</p><p>Built for resilience, not promises of perfection.</p></footer>
+</body>
+</html>
